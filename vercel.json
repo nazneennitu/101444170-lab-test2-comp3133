@@ -2,11 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "angular.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "dist/101444170-lab-test2-comp3133"
-        }
+        "use": "@vercel/static-build"
       }
     ],
     "routes": [
@@ -14,6 +10,7 @@
         "src": "/(.*)",
         "dest": "/index.html"
       }
-    ]
+    ],
+    "outputDirectory": "dist/101444170-lab-test2-comp3133"
   }
   
